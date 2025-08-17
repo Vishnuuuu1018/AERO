@@ -42,7 +42,14 @@ namespace AeroFly.Repositories
         {
             _context.Bookings.Add(booking);
             await _context.SaveChangesAsync();
-            return booking;
+
+            return await _context.Bookings
+                .Include(b => b.User)
+                .Include(b => b.Flight)
+                .Include(b => b.Seats)
+                .Include(b => b.Payment)
+                .Include(b => b.Refund)
+                .FirstOrDefaultAsync(b => b.Id == booking.Id);
         }
 
         public async Task<Booking?> UpdateBookingAsync(Booking booking)

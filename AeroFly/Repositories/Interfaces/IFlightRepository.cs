@@ -11,5 +11,7 @@ namespace AeroFly.Repositories.Interfaces
         Task<Flight> AddFlightAsync(Flight flight);
         Task<Flight?> UpdateFlightAsync(Flight flight);
         Task<Flight?> DeleteFlightAsync(int id);
+        Task<IEnumerable<Flight>> GetFlightsByOwnerAsync(int ownerId);
+
     }
 }

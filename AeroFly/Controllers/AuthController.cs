@@ -23,7 +23,8 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public IActionResult Login([FromBody] UserLoginDto login)
     {
-        var user = _context.Users.SingleOrDefault(u => u.Email == login.Email && u.PasswordHash == login.Password);
+        var user = _context.Users
+            .SingleOrDefault(u => u.Email == login.Email && u.PasswordHash == login.Password);
 
         if (user == null)
             return Unauthorized("Invalid credentials");
@@ -37,7 +38,7 @@ public class AuthController : ControllerBase
             {
                 new Claim(ClaimTypes.Name, user.Email),
                 new Claim(ClaimTypes.Role, user.Role.ToString()),
-                new Claim("userId", user.Id.ToString())
+                new Claim("UserId", user.Id.ToString()) // FIXED claim name
             }),
             NotBefore = DateTime.UtcNow,
             Expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_config["Jwt:DurationInMinutes"])),
@@ -49,8 +50,8 @@ public class AuthController : ControllerBase
         var token = tokenHandler.CreateToken(tokenDescriptor);
         var jwt = tokenHandler.WriteToken(token);
 
-        return Ok(new 
-        { 
+        return Ok(new
+        {
             token = jwt,
             user = new
             {
@@ -61,6 +62,7 @@ public class AuthController : ControllerBase
             }
         });
     }
+
     [HttpPost("register")]
     public async Task<IActionResult> Register(UserRegisterDto userDto)
     {
@@ -75,7 +77,7 @@ public class AuthController : ControllerBase
             PasswordHash = userDto.Password,
             ContactNumber = userDto.ContactNumber,
             Gender = userDto.Gender,
-            
+            Role = UserRole.User
         };
 
         await _context.Users.AddAsync(newUser);
@@ -83,6 +85,7 @@ public class AuthController : ControllerBase
 
         return Ok("User registered successfully");
     }
+
     [HttpPost("forgot-password")]
     public async Task<IActionResult> ForgotPassword(ForgotPasswordDto dto)
     {
@@ -90,11 +93,9 @@ public class AuthController : ControllerBase
         if (user == null)
             return NotFound("User not found");
 
-        user.PasswordHash = dto.Password; 
+        user.PasswordHash = dto.Password;
         await _context.SaveChangesAsync();
 
         return Ok("Password updated successfully");
     }
-
-
 }

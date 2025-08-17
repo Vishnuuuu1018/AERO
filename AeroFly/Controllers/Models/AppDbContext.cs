@@ -18,6 +18,9 @@ namespace AeroFly.Controllers.Models
         public DbSet<Payment> Payment { get; set; }
         public DbSet<Refund> Refunds { get; set; }
 
+        public DbSet<Admin> Admins { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()

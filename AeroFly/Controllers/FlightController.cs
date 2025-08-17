@@ -2,7 +2,6 @@
 using AeroFly.DTOs.Flight;
 using AeroFly.Repositories.Interfaces;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AeroFly.Controllers
@@ -17,19 +16,23 @@ namespace AeroFly.Controllers
         {
             _flightRepository = flightRepository;
         }
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Flight>>> GetAllFlights()
         {
             var flights = await _flightRepository.GetAllFlightsAsync();
             return Ok(flights);
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Flight>> GetFlightById(int id)
         {
             var flight = await _flightRepository.GetFlightByIdAsync(id);
+            if (flight == null) return NotFound();
             return Ok(flight);
         }
-        [Authorize]
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<Flight>> AddFlight([FromBody] FlightCreateDTO flightDto)
         {
@@ -50,28 +53,40 @@ namespace AeroFly.Controllers
             await _flightRepository.AddFlightAsync(flight);
             return CreatedAtAction(nameof(GetFlightById), new { id = flight.Id }, flight);
         }
-        [Authorize]
-        [HttpPut]
-        public async Task<ActionResult<Flight>> UpdateFlight(int id,Flight flight)
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateFlight(int id, [FromBody] FlightUpdateDto flightDto)
         {
-            if (id != flight.Id)
-            {
-                return BadRequest();
-            }
-            await _flightRepository.UpdateFlightAsync(flight);
-            return NoContent();  
+            if (id != flightDto.Id) return BadRequest("Flight ID mismatch");
+
+            var existing = await _flightRepository.GetFlightByIdAsync(id);
+            if (existing == null) return NotFound();
+
+            existing.FlightName = flightDto.FlightName;
+            existing.FlightNumber = flightDto.FlightNumber;
+            existing.Origin = flightDto.Origin;
+            existing.Destination = flightDto.Destination;
+            existing.DepartureTime = flightDto.DepartureTime;
+            existing.ArrivalTime = flightDto.ArrivalTime;
+            existing.TotalSeats = flightDto.TotalSeats;
+            existing.Fare = flightDto.Fare;
+            existing.BaggageCheckInKg = flightDto.BaggageCheckInKg;
+
+            await _flightRepository.UpdateFlightAsync(existing);
+            return Ok("Flight updated successfully");
         }
+
+
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Flight>> DeleteFlight(int id)
+        public async Task<IActionResult> DeleteFlight(int id)
         {
             var flight = await _flightRepository.GetFlightByIdAsync(id);
-            if(flight == null)
-            {
-                return NotFound();
-            }
+            if (flight == null) return NotFound();
+
             await _flightRepository.DeleteFlightAsync(id);
-            return NoContent();
+            return Ok("Flight deleted successfully");
         }
-       
     }
 }

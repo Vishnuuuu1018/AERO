@@ -32,6 +32,6 @@ namespace AeroFly.DTOs.Flight
         public int BaggageCheckInKg { get; set; }
 
         [Required]
-        public int OwnerId { get; set; } // This maps to User.Id (Airline owner)
+        public int OwnerId { get; set; } 
     }
 }

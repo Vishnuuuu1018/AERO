@@ -1,5 +1,95 @@
 [
   {
+    "ContainingType": "AeroFly.Controllers.AdminController",
+    "Method": "GetAdminDetails",
+    "RelativePath": "api/Admin/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.AdminController",
+    "Method": "DeleteFlight",
+    "RelativePath": "api/Admin/flights/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.AdminController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Admin/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AeroFly.DTOs.AdminForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "AeroFly.DTOs.AdminLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.AdminController",
+    "Method": "Signup",
+    "RelativePath": "api/Admin/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AeroFly.DTOs.AdminSignUpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.AdminController",
+    "Method": "UpdateAdmin",
+    "RelativePath": "api/Admin/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AeroFly.DTOs.AdminUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AuthController",
     "Method": "ForgotPassword",
     "RelativePath": "api/Auth/forgot-password",
@@ -57,7 +147,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[AeroFly.Controllers.Models.Booking, AeroFly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AeroFly.DTOs.Booking.BookingDTO, AeroFly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -83,38 +173,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "AeroFly.Controllers.Models.Booking",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "AeroFly.Controllers.BookingController",
-    "Method": "UpdateBookingAsync",
-    "RelativePath": "api/Booking",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "booking",
-        "Type": "AeroFly.Controllers.Models.Booking",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "AeroFly.Controllers.Models.Booking",
+        "Type": "AeroFly.DTOs.Booking.BookingDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -140,7 +199,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "AeroFly.Controllers.Models.Booking",
+        "Type": "AeroFly.DTOs.Booking.BookingDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -152,9 +211,9 @@
   },
   {
     "ContainingType": "AeroFly.Controllers.BookingController",
-    "Method": "DeleteBookingAsync",
-    "RelativePath": "api/Booking/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "CancelBooking",
+    "RelativePath": "api/Booking/cancel/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -164,17 +223,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AeroFly.Controllers.Models.Booking",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AeroFly.Controllers.BookingController",
@@ -240,37 +289,6 @@
   },
   {
     "ContainingType": "AeroFly.Controllers.FlightController",
-    "Method": "UpdateFlight",
-    "RelativePath": "api/Flight",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "flight",
-        "Type": "AeroFly.Controllers.Models.Flight",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "AeroFly.Controllers.Models.Flight",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "AeroFly.Controllers.FlightController",
     "Method": "GetFlightById",
     "RelativePath": "api/Flight/{id}",
     "HttpMethod": "GET",
@@ -297,6 +315,27 @@
   },
   {
     "ContainingType": "AeroFly.Controllers.FlightController",
+    "Method": "UpdateFlight",
+    "RelativePath": "api/Flight/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "flightDto",
+        "Type": "AeroFly.DTOs.Flight.FlightUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.FlightController",
     "Method": "DeleteFlight",
     "RelativePath": "api/Flight/{id}",
     "HttpMethod": "DELETE",
@@ -309,17 +348,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AeroFly.Controllers.Models.Flight",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AeroFly.Controllers.PaymentController",
@@ -805,17 +834,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "AeroFly.Controllers.Models.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "AeroFly.Controllers.UserController",
@@ -828,6 +847,32 @@
       {
         "Name": "dto",
         "Type": "AeroFly.DTOs.User.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AeroFly.Controllers.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AeroFly.DTOs.User.UpdateProfileDto",
         "IsRequired": true
       }
     ],

@@ -3,44 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\flight\\flightdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\flight\\flightdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\implementations\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\implementations\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\implementations\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\implementations\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\migrations\\20250814131153_evgn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\migrations\\20250814131153_evgn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\booking\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\booking\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\implementations\\bookingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\implementations\\bookingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\interfaces\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\booking\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\booking\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\migrations\\20250816044142_fin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\migrations\\20250816044142_fin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\interfaces\\iflightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\interfaces\\iflightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\repositories\\implementations\\flightrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\repositories\\implementations\\flightrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\adminupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\adminupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\migrations\\20250816095211_newly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\migrations\\20250816095211_newly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\flight\\flightupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\flight\\flightupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\adminforgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\adminforgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\adminsignupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\adminsignupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\flight\\flightcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\flight\\flightcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\user\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\user\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\user\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\user\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\adminlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|c:\\users\\heman\\source\\repos\\aerofly\\aerofly\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD4924C0-276A-4F73-BD48-7943995F18D8}|AeroFly\\AeroFly.csproj|solutionrelative:aerofly\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,124 +126,351 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AeroFly\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwBgAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "FlightCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Flight\\FlightCreateDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\Flight\\FlightCreateDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Flight\\FlightCreateDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\Flight\\FlightCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:51:10.562Z",
+              "WhenOpened": "2025-08-17T05:17:12.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminSignUpDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminSignUpDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\AdminSignUpDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminSignUpDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\AdminSignUpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:09:58.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminForgotPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\AdminForgotPasswordDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminForgotPasswordDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\AdminForgotPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T04:01:56.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FlightUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Flight\\FlightUpdateDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\Flight\\FlightUpdateDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Flight\\FlightUpdateDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\Flight\\FlightUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T10:40:55.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250816095211_newly.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Migrations\\20250816095211_newly.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Migrations\\20250816095211_newly.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Migrations\\20250816095211_newly.cs",
+              "RelativeToolTip": "AeroFly\\Migrations\\20250816095211_newly.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:52:11.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminUpdateDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\AdminUpdateDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminUpdateDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\AdminUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T09:22:28.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FlightRepo.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\FlightRepo.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Implementations\\FlightRepo.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\FlightRepo.cs",
+              "RelativeToolTip": "AeroFly\\Repositories\\Implementations\\FlightRepo.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:50:43.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IFlightRepository.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IFlightRepository.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Interfaces\\IFlightRepository.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IFlightRepository.cs",
+              "RelativeToolTip": "AeroFly\\Repositories\\Interfaces\\IFlightRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:50:41.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250816044142_fin.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Migrations\\20250816044142_fin.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Migrations\\20250816044142_fin.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Migrations\\20250816044142_fin.cs",
+              "RelativeToolTip": "AeroFly\\Migrations\\20250816044142_fin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:41:42.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingDTO.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Booking\\BookingDTO.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\Booking\\BookingDTO.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Booking\\BookingDTO.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\Booking\\BookingDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T21:25:16.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Interfaces\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IBookingRepository.cs",
+              "RelativeToolTip": "AeroFly\\Repositories\\Interfaces\\IBookingRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:51:24.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingRepo.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\BookingRepo.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Implementations\\BookingRepo.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\BookingRepo.cs",
+              "RelativeToolTip": "AeroFly\\Repositories\\Implementations\\BookingRepo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:51:23.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "AeroFly\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:23:00.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Booking.cs",
+              "RelativeToolTip": "AeroFly\\Controllers\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:20:27.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AeroFly\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAQwE8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T18:38:56.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250814131153_evgn.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Migrations\\20250814131153_evgn.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Migrations\\20250814131153_evgn.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Migrations\\20250814131153_evgn.cs",
+              "RelativeToolTip": "AeroFly\\Migrations\\20250814131153_evgn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T13:11:53.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Implementations\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\AdminRepository.cs",
+              "RelativeToolTip": "AeroFly\\Repositories\\Implementations\\AdminRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:13:45.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\UserRepo.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Implementations\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Implementations\\UserRepo.cs",
-              "RelativeToolTip": "AeroFly\\Repositories\\Implementations\\UserRepo.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "RelativeToolTip": "AeroFly\\Repositories\\Interfaces\\IAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:49:35.524Z"
+              "WhenOpened": "2025-08-13T16:13:10.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "AeroFly\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FlightDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Flight\\FlightDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\Flight\\FlightDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Flight\\FlightDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\Flight\\FlightDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:48:20.752Z"
+              "WhenOpened": "2025-08-13T16:11:45.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookingCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Booking\\BookingCreateDto.cs",
-              "RelativeDocumentMoniker": "AeroFly\\DTOs\\Booking\\BookingCreateDto.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\Booking\\BookingCreateDto.cs",
-              "RelativeToolTip": "AeroFly\\DTOs\\Booking\\BookingCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "AdminLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminLoginDTO.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\AdminLoginDTO.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminLoginDTO.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\AdminLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:47:51.102Z"
+              "WhenOpened": "2025-08-13T16:09:41.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "AeroFly\\Controllers\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AeroFly\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvx4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:46:01.405Z"
+              "WhenOpened": "2025-08-13T16:06:50.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Seat.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Seat.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\Seat.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Seat.cs",
-              "RelativeToolTip": "AeroFly\\Controllers\\Models\\Seat.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\AdminDTO.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\AdminDTO.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\AdminDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:45:02.595Z"
+              "WhenOpened": "2025-08-13T16:06:06.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\User.cs",
-              "RelativeToolTip": "AeroFly\\Controllers\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Admin.cs",
+              "RelativeToolTip": "AeroFly\\Controllers\\Models\\Admin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA6wA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T04:44:32.321Z"
+              "WhenOpened": "2025-08-13T16:05:33.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Flight.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\Flight.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Flight.cs",
-              "RelativeToolTip": "AeroFly\\Controllers\\Models\\Flight.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA+wCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\User\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\User\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\User\\UserLoginDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\User\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T06:32:03.788Z"
+              "WhenOpened": "2025-08-13T14:07:27.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Controllers\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\Models\\Login.cs",
-              "RelativeToolTip": "AeroFly\\Controllers\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "UpdateProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\User\\UpdateProfileDto.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\User\\UpdateProfileDto.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\User\\UpdateProfileDto.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\User\\UpdateProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T09:41:01.742Z"
+              "WhenOpened": "2025-08-13T13:30:26.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Program.cs",
-              "RelativeDocumentMoniker": "AeroFly\\Program.cs",
-              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Program.cs",
-              "RelativeToolTip": "AeroFly\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\User\\UserProfile.cs",
+              "RelativeDocumentMoniker": "AeroFly\\DTOs\\User\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\DTOs\\User\\UserProfile.cs",
+              "RelativeToolTip": "AeroFly\\DTOs\\User\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T12:13:58.383Z"
+              "WhenOpened": "2025-08-13T13:29:31.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FlightController.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\FlightController.cs",
+              "RelativeDocumentMoniker": "AeroFly\\Controllers\\FlightController.cs",
+              "ToolTip": "C:\\Users\\heman\\Source\\Repos\\AeroFly\\AeroFly\\Controllers\\FlightController.cs",
+              "RelativeToolTip": "AeroFly\\Controllers\\FlightController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:04:40.252Z",
+              "EditorCaption": ""
             }
           ]
         }

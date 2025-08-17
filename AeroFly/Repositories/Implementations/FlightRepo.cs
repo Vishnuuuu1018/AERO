@@ -66,6 +66,14 @@ namespace AeroFly.Repositories.Implementations
             return null;
             
         }
+
+        public async Task<IEnumerable<Flight>> GetFlightsByOwnerAsync(int ownerId)
+        {
+            return await _appDbContext.Flights
+                                 .Where(f => f.OwnerId == ownerId)
+                                 .Include(f => f.Owner)
+                                 .ToListAsync();
+        }
     }
 
        
